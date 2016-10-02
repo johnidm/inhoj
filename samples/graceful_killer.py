@@ -4,21 +4,21 @@ from inhoj.contexts import gracefuldeath
 
 
 if __name__ == '__main__':
-	pass
+    pass
 
-	# 
-	# 
+    #
+    #
+    
+    # @gracefuldeath()
+    # def run():
+    #     print('running...')
 
-	# while True:
-	# 	@gracefuldeath()
-	# 	def run():
-	# 		print('running...')
+    # while True:
+    #     run()
 
-	# 	run()
-
-	# while True:
-	# 	with gracefuldeath():
-	# 		print('processing...')
+    # while True:
+    #   with gracefuldeath():
+    #       print('processing...')
 
     # killer = GracefulDeath()
     # while True:
