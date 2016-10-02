@@ -1,5 +1,5 @@
-# 2016-02-13
+# 2016-10-02 | 1.0.0
 
-* Update requirements to latest versions
-* Add oss related files
-* Add require.io badge for requirements to README
+* First release
+* Print in terminal with colors
+* 

@@ -37,3 +37,7 @@ htmlcov
 .mr.developer.cfg
 .project
 .pydevproject
+
+inhoj/__pychache__
+test/__pychache__
+

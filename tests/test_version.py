@@ -1,6 +1,8 @@
-from packagename.version import Version
+import unittest
+import pytest
+
+from inhoj.version import Version
 from tests import *
-from tests.helpers import *
 
 
 class TestVersion(unittest.TestCase):
