@@ -9,9 +9,18 @@ setuptools.setup(name='inhoj',
                  author='Johni Douglas Marangon',
                  author_email='johni.douglas.marangon@gmail.com',
                  url='https://github.com/johnidm/inhoj',
-                 py_modules=[],
-                 install_requires=[],
+                 packages=[
+                     'inhoj',
+                 ],
+                 package_dir={'inhoj':
+                              'inhoj'},
                  license='MIT License',
                  zip_safe=False,
-                 keywords=' ',
-                 classifiers=['Packages'])
+                 keywords='inhoj',
+                 classifiers=[
+                     'Development Status :: 2 - Pre-Alpha',
+                     'Intended Audience :: Developers',
+                     'License :: OSI Approved :: MIT License',
+                     'Natural Language :: English',
+                     'Programming Language :: Python :: 3.5',
+                 ])

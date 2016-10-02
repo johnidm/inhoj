@@ -2,7 +2,6 @@ import unittest
 import pytest
 
 from inhoj.version import Version
-from tests import *
 
 
 class TestVersion(unittest.TestCase):

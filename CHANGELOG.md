@@ -2,4 +2,4 @@
 
 * First release
 * Print in terminal with colors
-* 
+* Catch signals to allow graceful process shutdown

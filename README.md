@@ -14,7 +14,11 @@ pip install inhoj
 
 ## Why?
 
-## 
+## Features
+
+#### Print in terminal with colors
+
+#### Catch signals to allow graceful process shutdown
 
 ## Requirements
 
