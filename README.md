@@ -6,6 +6,12 @@ inhoj
 
 The set of the useful Python code snippets
 
+## Install
+
+```
+pip install inhoj
+```
+
 ## Why?
 
 ## 
