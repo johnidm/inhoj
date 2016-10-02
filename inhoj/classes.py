@@ -17,6 +17,7 @@ class GracefulDeath():
         catch_signals = [
             signal.SIGTERM,
             signal.SIGINT,
+            signal.SIGQUIT,
         ]
 
         for signum in catch_signals:

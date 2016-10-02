@@ -9,12 +9,12 @@ if __name__ == '__main__':
     #
     #
     
-    # @gracefuldeath()
-    # def run():
-    #     print('running...')
+    @gracefuldeath()
+    def run():
+        print('running...')
 
-    # while True:
-    #     run()
+    while True:
+        run()
 
     # while True:
     #   with gracefuldeath():
