@@ -9,7 +9,7 @@ if __name__ == '__main__':
     #
     #
     
-    @gracefuldeath()
+    @gracefuldeath("Killing...")
     def run():
         print('running...')
 
@@ -21,6 +21,7 @@ if __name__ == '__main__':
     #       print('processing...')
 
     # killer = GracefulDeath()
+    # killer = GracefulDeath('Killing...')
     # while True:
     #     time.sleep(1)
     #     print("doing something in a loop ...")

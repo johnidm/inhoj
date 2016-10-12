@@ -1,5 +1,6 @@
 import signal
 
+from inhoj.prints import info
 
 class GracefulDeath():
 
@@ -11,9 +12,9 @@ class GracefulDeath():
         - https://github.com/ryran/reboot-guard/blob/master/rguard#L284:L304
     """
 
-    def __init__(self):
+    def __init__(self, message_for_kill=''):
         self.kill_now = False
-
+        self.message_for_kill = message_for_kill
         catch_signals = [
             signal.SIGTERM,
             signal.SIGINT,
@@ -24,4 +25,8 @@ class GracefulDeath():
             signal.signal(signum, self.handle)
 
     def handle(self, signum, frame):
+
+        if self.message_for_kill:
+            info(self.message_for_kill)
+
         self.kill_now = True

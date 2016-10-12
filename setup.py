@@ -3,7 +3,7 @@ from inhoj.version import Version
 
 
 setuptools.setup(name='inhoj',
-                 version=Version('2.0.2').number,
+                 version=Version('2.1.1').number,
                  description='Useful Python Code Snippets',
                  long_description=open('README.md').read().strip(),
                  author='Johni Douglas Marangon',
