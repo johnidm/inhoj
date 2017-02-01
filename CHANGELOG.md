@@ -1,3 +1,7 @@
+# 2016-10-16 | 2.1.2
+
+* Add functions `getn` and `getni`
+
 # 2016-10-12 | 2.1.1
 
 * Add message when killing the current process
